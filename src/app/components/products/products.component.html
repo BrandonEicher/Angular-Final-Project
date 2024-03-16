@@ -1,1 +1,42 @@
-<p>products works!</p>
+<div class="grid-container">
+    <div class="header">
+        <h2 class="title">Find Your New Favorite Disk!</h2>
+        <button class="topButton" (click)="sortProductsByPrice()">Sort by Price</button>
+        <button class="topButton" (click)="sortProductsByName()">Sort by Name</button>
+        <button class="topButton" routerLink="/add">Add</button>
+    </div>    
+  <mat-grid-list cols="3" rowHeight="500px">
+      <ng-container *ngFor="let product of productList">
+          <mat-grid-tile>
+              <mat-card class="dashboard-card">
+                  <mat-card-content class="dashboard-card-content">
+                      <div class="clickable" (click)="navigateToProductDetail(product.id)">
+                          <img class="image" [src]="product.imageUrl" alt="Product Image">
+                          <p>{{ product.productName }}</p>
+
+                          <p>${{ product.price }}</p>
+                      </div>
+                      <div class="buttons">
+                        <button class="view" (click)="navigateToProductDetail(product.id !== undefined ? product.id.toString() : '')">View</button>
+                          <button class="edit" routerLink="edit/{{ product.id }}">Edit</button>
+                          <button class="button" (click)="product.id !== undefined ? deleteProduct(product.id) : null">Delete</button>                      
+                      </div>
+                  </mat-card-content>
+              </mat-card>
+          </mat-grid-tile>
+      </ng-container>
+  </mat-grid-list>
+</div>
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Copyright © 2024 Brandon's Discs. All rights reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-inline social-buttons">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>

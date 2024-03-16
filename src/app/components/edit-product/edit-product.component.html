@@ -1,1 +1,72 @@
-<p>edit-product works!</p>
+<div class="container">  
+    <div class="content">          
+        <h2 class="header">Edit {{ currentProduct.productName }}</h2>
+        <form class="form" #form="ngForm" (ngSubmit)="updateProduct()">
+
+
+            <div class="example-form">
+                <mat-form-field appearance="fill">
+                  <mat-label>Disk Name</mat-label>
+                  <input type="text" name="name" [(ngModel)]="currentProduct.productName" matInput placeholder="Enter your Disk Name">
+                </mat-form-field>
+              
+                <mat-form-field appearance="fill">
+                  <mat-label>Description</mat-label>
+                  <input name="description" [(ngModel)]="currentProduct.description" matInput placeholder="Enter your Description">
+                </mat-form-field>
+            
+                <mat-form-field appearance="fill">
+                    <mat-label>Flight Numbers</mat-label>
+                    <input type="text" name="flightNumbers" [(ngModel)]="currentProduct.flightNumbers" matInput placeholder="Enter your Flight Numbers">
+                </mat-form-field>
+                
+                <mat-form-field appearance="fill">
+                    <mat-label>Price</mat-label>
+                    <input type="number" name="price" [(ngModel)]="currentProduct.price" matInput placeholder="Enter your Price">
+                </mat-form-field>
+            
+                <mat-form-field appearance="fill">
+                    <mat-label>Img URL</mat-label>
+                    <input type="text" name="image" [(ngModel)]="currentProduct.imageUrl" matInput placeholder="Enter your Img URL">
+                </mat-form-field>
+                <br>
+                <div class="buttons">
+                    <button class="button" routerLink="/products">Back</button>
+                </div>
+                <div class="buttons">  
+                    <button class="button" type="submit">Submit</button>
+                </div>
+            </div>
+
+
+            <!-- <div class="product">
+                <label>Disc Name </label>
+                <input type="text" name="name" [(ngModel)]="currentProduct.productName">
+            </div>
+            <div class="product">
+                <label>Description </label>
+                <textarea rows="6" cols="50" name="description" [(ngModel)]="currentProduct.description"></textarea>
+            </div>
+            <div class="product">
+                <label>Flight Numbers </label>
+                <input type="text" name="flightNumbers" [(ngModel)]="currentProduct.flightNumbers">
+            </div>
+            <div class="product">
+                <label>Price </label>
+                <input type="text" name="price" [(ngModel)]="currentProduct.price">
+            </div>
+            <div class="product">
+                <label>Image URL </label>
+                <input type="text" name="Image" [(ngModel)]="currentProduct.imageUrl">
+            </div>
+            <br>
+            <div class="buttons">
+                <button class="button" routerLink="/products">Back</button>
+            </div>
+            <div class="buttons">    
+                <button class="button" type="submit">Submit</button>
+            </div> -->
+        </form>
+    </div>
+    <app-footer></app-footer>
+</div>          

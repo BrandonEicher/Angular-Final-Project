@@ -1,0 +1,31 @@
+<div class="grid-container">
+  <mat-grid-list cols="3" rowHeight="450px">
+    <ng-container *ngFor="let card of cards | async">
+      <mat-grid-tile [colspan]="card.cols" [rowspan]="card.rows">
+        <mat-card class="dashboard-card">
+          <mat-card-header>
+          </mat-card-header>
+          <mat-card-content class="dashboard-card-content">
+            <div *ngIf="discs && discs.length >= card.index + 1">
+              <img class="image" [src]="discs[card.index].imageUrl">
+              <h1>{{ discs[card.index].productName }}</h1>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+    </ng-container>
+  </mat-grid-list>
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Copyright © 2024 Brandon's Discs. All rights reserved.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-inline social-buttons">
+          </ul>
+        </div>
+      </div>
+    </div>
+</footer>
+</div>

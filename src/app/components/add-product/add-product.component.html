@@ -1,1 +1,43 @@
-<p>add-product works!</p>
+<div class="container">
+    <div class="content">
+        <h1 class="header">Create New Disc</h1>
+        
+        <form  class="example-form" class="form" #form="ngForm" (ngSubmit)="createProduct()">
+
+            <div class="example-form">
+                <mat-form-field appearance="fill">
+                  <mat-label>Disk Name</mat-label>
+                  <input type="text" name="name" [(ngModel)]="product.productName" matInput placeholder="Enter your Disk Name">
+                </mat-form-field>
+              
+                <mat-form-field appearance="fill">
+                  <mat-label>Description</mat-label>
+                  <input name="description" [(ngModel)]="product.description" matInput placeholder="Enter your Description">
+                </mat-form-field>
+            
+                <mat-form-field appearance="fill">
+                    <mat-label>Flight Numbers</mat-label>
+                    <input type="text" name="flightNumbers" [(ngModel)]="product.flightNumbers" matInput placeholder="Enter your Flight Numbers">
+                </mat-form-field>
+                
+                <mat-form-field appearance="fill">
+                    <mat-label>Price</mat-label>
+                    <input type="number" name="price" [(ngModel)]="product.price" matInput placeholder="Enter your Price">
+                </mat-form-field>
+            
+                <mat-form-field appearance="fill">
+                    <mat-label>Img URL</mat-label>
+                    <input type="text" name="image" [(ngModel)]="product.imageUrl" matInput placeholder="Enter your Img URL">
+                </mat-form-field>
+                <br>
+                <div class="buttons">
+                    <button class="button" routerLink="/products">Back</button>
+                </div>
+                <div class="buttons">  
+                    <button class="button" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <app-footer></app-footer>
+</div>

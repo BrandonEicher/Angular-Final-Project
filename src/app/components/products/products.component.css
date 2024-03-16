@@ -1,0 +1,81 @@
+.grid-container {
+    margin: 20px;
+}
+  
+.dashboard-card {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+}
+
+.more-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.dashboard-card-content {
+    text-align: center;
+}
+
+.example-card {
+    max-width: 400px;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+}
+
+.image {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.priceAndName {
+    display: inline;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topButton {
+    margin-right: 50px;
+    padding: 10px 20px;
+}
+
+.title {
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: lightgray;
+    color: black;
+    padding: 15px;
+}
+
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; 
+    color: white; 
+    padding: 10px;
+}      

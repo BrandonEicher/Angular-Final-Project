@@ -1,0 +1,100 @@
+{
+  "product": [
+    {
+      "id": "1",
+      "productName": "Nuke OS",
+      "flightNumbers": "13 / 4 / 0 / 4",
+      "description": "The extra overstable version of the popular Discraft Nuke, the Nuke OS is made for advanced players with the most powerful arms. This disc has the same thick 2.5cm rim that the Nuke offers, but will finish its flight with a sharp overstable fade every time. Players who throw discs this hard are going to want them to maintain their flight characteristics. The Nuke OS is available in the hard, ultra-durable Elite-Z plastic.",
+      "price": 14.99,
+      "imageUrl": "assets/NukeOS.webp"
+    },
+    {
+      "id": "2",
+      "productName": "Hades",
+      "flightNumbers": "12 / 6 / -3 / 2",
+      "description": "The Hades is the most beginner-friendly disc golf disc in the Paul McBeth line with Discraft. This Distance driver is made for the everyday player to gain more distance! It has great glide and an understable flight to allow players of all skill levels to get that full flight they are looking for!",
+      "price": 19.99,
+      "imageUrl": "assets/Hades.webp"
+    },
+    {
+      "id": "3",
+      "productName": "Zeus",
+      "flightNumbers": "12 / 5 / -1 / 3",
+      "description": "This Paul McBeth signature disc is similar to the popular Innova Destroyer in flight and feel. The Zeus is a go-to driver for power throwers looking for max distance and consistency. The Zeus has a fairly wide rim with a 2.3cm wing length. This is an excellent disc for both forehand and backhand throws for players who can handle the stability. The Zeus is also currently available in Discraft's Swirly ESP plastic.",
+      "price": 18.99,
+      "imageUrl": "assets/Zeus.webp"
+    },
+    {
+      "id": "4",
+      "productName": "Scorch",
+      "flightNumbers": "11 / 6 / -2 / 2",
+      "description": "The Scorch is an understable distance driver. It is much like a longer Avenger SS. This makes it a great distance driver that will have some turn and a decent amount of fade, providing a consistent S curve flight path every time you rip it.",
+      "price": 24.99,
+      "imageUrl": "/assets/Scorch.webp"
+    },
+    {
+      "id": "5",
+      "productName": "Anax",
+      "flightNumbers": "10 / 6 / 0 / 3",
+      "description": "The Anax (pronounced Onyx) is Paul McBeth's new signature fairway/power driver. This 10-speed driver will fight the wind and stay straight down the fairway before a nice fade at the end. Slower arm speeds will find this disc to be very reliable for shorter fairway drives. Big arms can expect big distance out of the Anax. ",
+      "price": 23.99,
+      "imageUrl": "/assets/Anax.webp"
+    },
+    {
+      "id": "6",
+      "productName": "Raptor",
+      "flightNumbers": "9 / 4 / 0 / 3",
+      "description": "Confidence is KING. This First Run Raptor driver has been a collaboration between our Team Discraft captain, Paul Ulibarri and our R&D guys. Driving into wind - check. Flex shots, Sidearm - check, check. The Raptor delivers the most confidence you've ever felt in a driver under 300ft. Make room in your bag, this just became a staple.",
+      "price": 24.99,
+      "imageUrl": "/assets/Raptor.png"
+    },
+    {
+      "id": "7",
+      "productName": "Passion",
+      "flightNumbers": "8 / 5 / -1 / 1",
+      "description": "The Passion is a Paige Pierce branded fairway driver with a straight flight and a unique flat outer rim configuration. It is very similar to the classic Discraft Cyclone but with less of a bead, tuning it for a straighter, more dependable flight for precision placement on the fairway. ",
+      "price": 16.99,
+      "imageUrl": "/assets/Passion.webp"
+    },
+    {
+      "id": "8",
+      "productName": "Mantis",
+      "flightNumbers": "8 / 4 / -2 / 2",
+      "description": "The Mantis is a reliable fairway driver that was originally released as the 2013 Ace Race disc in Titanium plastic. This disc provides a straight flight path, comfortable feel, and excellent glide. The later runs have a lower profile and it is slightly more domey to make it easier to control with additional glide.",
+      "price": 16.99,
+      "imageUrl": "/assets/Mantis.webp"
+    },
+    {
+      "id": "9",
+      "productName": "Buzzz",
+      "flightNumbers": "5 / 4 / -1 / 1",
+      "description": "The Buzzz is one of the most popular midrange discs in the world. This consistent, reliable, and stable disc will perform exactly how you want it to. With powerful throws the Buzzz will hold any line you put on it. With light, level throws, it will fade slightly. This super popular disc can be purchased in all of Discraft's plastics. In base line plastics it has a stability rating of 0. In premium plastic blends this disc is slightly overstable with a Discraft rating of .5.",
+      "price": 7.99,
+      "imageUrl": "/assets/Buzzz.webp"
+    },
+    {
+      "id": "10",
+      "productName": "Zone",
+      "flightNumbers": "4 / 3 / 0 / 3",
+      "description": "Want to get in the Zone? The Discraft Zone is a slim putter with a thick rim (1.2cm) that gives you something to hold on to. This is a very overstable putter that is good for headwinds, strategic fades, forehand throws, flick putts, and slamming into chains at just the right angle. Many Discraft enthusiasts will have a Zone in their bag as a putter that gets them out of a situation where a flick, or sidearm putt or approach shot is their only option. Being so overstable, this disc can handle the torque that a flick will put on it! The Zone is considered one of the best Discraft Discs available today. ",
+      "price": 8.99,
+      "imageUrl": "/assets/Zone.webp"
+    },
+    {
+      "id": "11",
+      "productName": "Luna",
+      "flightNumbers": "3 / 3 / 0 / 3",
+      "description": "The Luna is the first putter in the Paul McBeth line for Discraft. It is his primary putter and it is more overstable than a lot of other putters. It works great as a low-glide, beadless putter for players who putt with a lot of confidence. It is a popular putter due to the reputation of Paul McBeth as a winner and will serve other experienced players well.",
+      "price": 10.99,
+      "imageUrl": "/assets/Luna.webp"
+    },
+    {
+      "id": "12",
+      "productName": "Roach",
+      "flightNumbers": "2 / 4 / 0 / 1",
+      "description": "The 2015 Ace Race disc. A straight flier with extra glide, the Roach is crafty in avoiding danger while incessantly pursuing chains. Just point and shoot. It's beadless too and feels great in the hand. Try a Roach on your next approach!",
+      "price": 10,
+      "imageUrl": "/assets/Roach.webp"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    margin: 50px;
+}
+
+.title {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 50%;
+    justify-content: center;
+}
+
+ .filler {
+    margin-left: 100px;
+    width: 50%;
+    justify-content: center;
+ }

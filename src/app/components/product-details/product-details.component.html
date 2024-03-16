@@ -1,1 +1,33 @@
-<p>product-details works!</p>
+<div class="container">
+    <div class="content">
+      <div *ngIf="currentProduct" class="product-details">
+        <div class="img">
+          <img class="img" [src]="currentProduct.imageUrl">
+        </div>
+        <div class="details">
+          <div class="header">
+            <h2>{{ currentProduct.productName }}</h2>
+          </div>
+          <div class="product">
+            <p>{{ currentProduct.description }}</p>
+          </div> 
+          <div class="product">
+            <p>Flight Numbers: {{ currentProduct.flightNumbers }}</p>
+          </div>
+          <div class="product">
+            <p>Price: ${{ currentProduct.price }}</p>
+          </div>
+          <div class="buttons">
+            <button class="button" routerLink="/products">Back</button>
+          </div>
+          <div class="buttons">
+            <button class="edit" [routerLink]="['/products/edit', currentProduct.id]">Edit</button>
+          </div>  
+          <div class="buttons">
+            <button class="button" (click)="currentProduct.id !== undefined ? deleteProduct(currentProduct.id) : null">Delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<app-footer></app-footer>
